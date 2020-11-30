@@ -1,0 +1,214 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+        
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+  ul,
+  ol {
+    margin: 0;
+    padding: 0; 
+  }
+  img {
+    display: block;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+  }
+  a {
+    text-decoration: none;
+    color: #212121;
+  }
+  ul {
+    list-style: none;}
+  .colortext {
+    color: #2196F3;
+  }
+  .accent {
+    color: #2196F3
+  }
+  .link:hover,
+  .link:focus {
+    color: #2196F3;
+  }
+  ------------------Header----------------
+  
+  .nav__item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+  }
+  .header__mail a,
+  .header__tel a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  body {
+    width: ;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    outline: 1px solid tomato;
+    width: 80px;
+  }
+  .nav__items {
+    display: flex;
+  }
+  header .address {
+    display: flex;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    
+  }
+  header .logo {
+    margin-right: 90px;
+  }
+  .nav__items {
+    margin-right: 330px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .header__mail {
+    margin-right: 50px;
+  }
+  .container {
+    display: flex;
+    /* background: rgb(212, 79, 79); */
+  } 
+  /* hero */
+  .hero__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+  }
+
+  .modal__btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    /* color: #FFFFFF; */
+  }
+
+  
+  /* ------------Features------------ */
+  .features__subtitl {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+
+  .features__desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575; 
+  }
+  /* -----------------Work-examples ----------------*/
+
+  .work-examples__title,
+  .team__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  -----------------------------------------/* Team */
+  .team__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  .team__desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+   ---------------------------------------- /* Footer */
+    .footer__mail a,
+    .footer__tel a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+     /* color: rgba(255, 255, 255, 0.6);*/
+    }
+  .footer__adrress a{
+   /* color: #FFFFFF;  */
+  }
+      /* -----------------------Menu-catalog-------------- */
+  .catalog__btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .catalog__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+  }
+  .catalog__desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
