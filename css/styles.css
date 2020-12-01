@@ -32,7 +32,7 @@
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     color: #212121;
   }
   a {
@@ -42,8 +42,8 @@
   ul {
     list-style: none;}
   .colortext {
-    color: #2196F3;
-  }
+      color: #2196F3;
+    }
   .accent {
     color: #2196F3
   }
@@ -55,11 +55,17 @@
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    background-color: #ec93ca;
-    
+    /* background-color: #ec93ca; */
   } 
-  ------------------Header----------------
-  
+  /* --------------------------Header */
+  .link.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
   .nav__item {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -67,8 +73,7 @@
     line-height: 1.143;
     letter-spacing: 0.02em;
   }
-  .header__mail a,
-  .header__tel a{
+  .header .address {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -82,14 +87,14 @@
     align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    background: rgb(207, 207, 214);
+    /* background: rgb(207, 207, 214); */
   }
 
   .nav__items {
     display: flex;
     align-items: center;
   }
-  header .address {
+  .header .address {
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -98,7 +103,7 @@
     display: flex;
     align-items: center;
   }
-  header .logo {
+  .header .logo {
     margin-right: 90px;
   }
 
@@ -111,16 +116,16 @@
   } 
   .link {
     display: flex;
-    outline: 1px solid rgb(37, 173, 25);
+    /* outline: 1px solid rgb(37, 173, 25); */
   }
   .header .container {
     display: flex;
     align-items: center;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
   }
 
  
-  -------------------------------/* hero */
+  /*---------------------------------------- hero */
   .hero__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -129,7 +134,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     /* color: #FFFFFF; */
-    outline: 1px solid rgb(197, 94, 211);
+    /* outline: 1px solid rgb(197, 94, 211); */
   }
   .hero__title {
     margin-bottom: 30px;
@@ -144,7 +149,7 @@
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
   }
 
   .modal__btn {
@@ -160,7 +165,7 @@
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background: #a0cff7;
+    /* background: #a0cff7; */
 
   }
   
@@ -186,7 +191,7 @@
   .features {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: rgb(149, 235, 137);
+    /* background-color: rgb(149, 235, 137); */
   }
   .features__items {
     display: flex;
@@ -199,7 +204,7 @@
   }
   .features__desc {
     padding-right: 20px;
-    outline: 1px solid rgb(5, 1, 0);
+    /* outline: 1px solid rgb(5, 1, 0); */
   }
   /* -----------------Work-examples ----------------*/
 
@@ -214,23 +219,23 @@
   }
   .work-examples {
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: rgb(153, 10, 10);
+    /* background-color: rgb(153, 10, 10); */
   }
   .work-examples__items {
     display: flex;
-    /* align-items: center; */
+    justify-content: center;
   }
   .work-examples__item:not(:last-child) {
     margin-right: 30px;
   }
 
-  /* .work-examples__title {
-    margin-left: auto;
-    margin-right: auto;
+  .work-examples__title {
+    margin-bottom: 50px;
+  }
+  /* -----------------------------------------Team */
+  /* .team {
+    background: rgb(192, 87, 87);
   } */
-  -----------------------------------------/* Team */
   .team__subtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -239,7 +244,13 @@
     letter-spacing: 0.03em;
     color: #212121;
   }
-
+  .team__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .team__subtitle {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
   .team__desc {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -249,18 +260,19 @@
   }
   .team__items {
     display: flex;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 94px;
   }
+
   .team__title {
     text-align: center;
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;
-    background-color: rgb(139, 111, 204);
+    /* background-color: rgb(139, 111, 204); */
   }
-  ---
-   ---------------------------------------- /* Footer */
-    .footer__mail a,
-    .footer__tel a {
+  /*    ---------------------------------------- Footer */
+    .footer .address {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -269,10 +281,24 @@
      /* color: rgba(255, 255, 255, 0.6);*/
     }
   .footer__adrress a{
-   /* color: #FFFFFF;  */
+   color: #FFFFFF; 
   }
- 
-  
+  .footer {
+    /* background: #188CE8; */
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .footer .logo {
+    margin-bottom: 20px;
+  }
+  .footer .address {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__mail{ 
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
       /* -----------------------Catalog-------------- */
   .catalog__btn {
     font-family: 'Roboto', sans-serif;
